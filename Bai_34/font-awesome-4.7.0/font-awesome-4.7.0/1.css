@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.to{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+p{
+	border: 1px solid black;
+	background-color: lightblue;
+	border-radius: 10px;
+	margin:0px 5px;
+}
+.to2{
+	width: 900px;
+	display: flex;/*phai có dòng thì mới khai triển cac thuộc tính flex*/
+	justify-content:flex-start; /*canh tất cả khối sang trái*/
+	background-color: #414141;
+	margin: auto;
+}
+.to3{
+	width: 900px;
+	display: flex; /*phai có dòng thì mới khai triển cac thuộc tính flex*/
+	margin: auto;
+	justify-content:flex-end;/*canh tất cả khối sang phải*/
+}
+.to4{
+	width: 900px;
+	margin: auto;
+	display: flex;/*phai có dòng thì mới khai triển cac thuộc tính flex*/
+	background-color: pink;
+	justify-content:space-between; /*khoang cach giữa các khối là bằng nhau và dính chặt hai bên lề*/
+}
+.to5{
+	width: 600px;
+	margin: auto;
+	background-color: purple;
+	display: flex;/*phai có dòng thì mới khai triển cac thuộc tính flex*/
+	justify-content:space-around; /*khoang cách d giữa các khối là như nhau và cách hai bên d/2*/
+}
+.to6{
+	width: 500px;
+	margin: auto;
+	background-color: black;
+	display: flex;/*phai có dòng thì mới khai triển cac thuộc tính flex*/
+	justify-content:center; /*canh tất cả các khối nằm ở giữa, có chức năng giống text-align: center
+}*/
+}
+.to7{
+	width: 900px;
+	margin: auto;
+	display: flex;/*phai có dòng thì mới khai triển cac thuộc tính flex*/
+	flex-direction:row; /*sắp xếp theo hàng, ngoài ra còn kiểu "row-reverse" dê sắp xếp ngược lại*/
+}
+.to8{
+	width: 700px;
+	margin: auto;
+	display: flex; /*mặc định ban dầu nều không thêm dòng "flex-direction:column" thì da column sẵn rồi*/
+	flex-direction:column; /*sắp xếp theo cột, ngoài ra còn kiểu "column-reverse" đê sắp xếp ngược lại*/
+}

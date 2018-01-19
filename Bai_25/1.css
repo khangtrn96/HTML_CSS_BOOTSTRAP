@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.khungtin{
+	width: 704px;
+	height: 421px;
+}
+.khungtin .tren{
+	width: 704px;
+	height: 49px;
+}
+.khungtin .tren a.tieude{
+	text-decoration: none;
+	color: red;
+	font-family: tahoma;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	left: 352px;
+	background-image: url(icon1.png);
+	background-repeat: no-repeat;
+	background-position: 30px;
+	background-image: red;
+}
+.khungtin .tren a.bosung{
+	text-decoration: none;
+	color: #414141;
+	font-style: italic;
+	font-family: tahoma;
+	font-weight: 4px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	left: 488px;
+}

@@ -1,0 +1,75 @@
+*{}
+
+p.tinnho {
+    font-size: 11px;
+    font-family: segoe ui light;
+    display: block;
+    margin-top: 2px;
+}
+
+a.tdtinnho {
+    text-decoration: none;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 3px;
+    display: block;
+    font-size: 12px;
+}
+
+a.lienket {
+    font-size: 12px;
+    font-style: italic;
+    color: #414141;
+    padding-left: 12px;
+    background-image: url(icon1.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    display: block;
+    margin-top: -1px;
+}
+
+p.noidung {
+    display: block;
+    font-size: 13px;
+    font-family: tahoma;
+    line-height: 19px;
+    margin-top: 1px;
+}
+
+a.tieude {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: segoe ui;
+    font-size: 18px;
+    color: red;
+    background-image: url(icon2.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 340px;
+    margin-top: 3px;
+}
+
+article.tinnho img {
+    width: 200px;
+}
+
+article.tinlon {
+    width: 478px;
+    height: 398px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin-right: 15px;
+    border: solid;
+}
+div.khungtin{
+    width: 825px;
+    height: 423px;
+}
+article.tinnho{
+    width: 310px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 12px;
+}

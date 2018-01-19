@@ -1,0 +1,48 @@
+*{margin: 0px;padding: 0px;}
+.bo{
+
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.bo img.layer1{
+	position: absolute;
+	z-index:1;
+	top: 0px;
+	left: 0px;
+	animation: zoomlen 10s forwards;
+}
+/*@-webkit-keyframes tentukhoa giúp tao tu khoá*/
+@-webkit-keyframes zoomlen{
+	from {transform:scale(1);}
+	to {transform:scale(2);}
+}
+/*.bo:hover img.layer1{
+	transform:scale(2);
+}*/
+.bo .layer2 {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	text-align: center;
+	margin-left:-300px;
+	color: white; 
+	opacity: 0;
+	animation: divao 1s forwards;
+	animation-delay:1s;
+	
+}
+@-webkit-keyframes divao{
+	from{top:30%;opacity: 0;}
+	to{top: 50%;opacity: 1;}
+}
+.bo .layer2 .chuto{
+	font-size: 25px;
+	font-weight: bold;
+
+
+}

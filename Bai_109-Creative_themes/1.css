@@ -1,0 +1,85 @@
+*{margin: 0; padding: 0;}
+
+.banner2 {
+    background: orange;
+}
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.banner a.btn.btn-info {
+    border-radius: 47px;
+} 
+.top{
+	width: 100%;
+	height: 100%;
+	background:url(pic1.jpg);
+	background-size: cover;
+}
+.menutren{
+	background-color: transparent;
+	border-bottom: 1px solid grey;
+
+}
+.menutrenphai li a{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.banner {
+
+color: #673AB7;
+}
+.tdto{
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.tdto:after{
+	content: '';
+	width: 200px;
+	height: 3px;
+	display: block;
+	position: absolute;
+	background: red;
+	left: 50%;
+	bottom: 0px;
+	margin-left: -100px;
+}
+.trichdan{
+	font-size: 15px;
+}
+@media (max-width:576px){
+	.navbar .logo{
+		font-size: 15px;
+	}
+	.navbar {
+		background:rgb(245, 245, 245);
+	}
+	.menutren li a{
+	color:white;
+	}
+	.menutrenphai li a{
+		
+	}
+	.menutrenphai li a:hover{
+		background:brown;
+	}
+}
+
+.navbar-brand {
+	margin-top: -38px!important;
+}
+/*banner2*/
+.tdto.tieude2{
+	font-size: 15px;
+	color: #607D8B;
+}
+a.btn.btn-danger .nut2{
+
+}

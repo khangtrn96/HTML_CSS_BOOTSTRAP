@@ -1,0 +1,107 @@
+@font-face{
+	src:url('Sansita', sans-serif);
+	font-family: Ba;
+}
+
+.khungtin{
+	width: 650px;
+	height: 480px;
+	border-bottom: 1px solid blue;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	
+
+}
+.khungtin .tren{
+	width: 650px;
+	height: 33px;
+	display: block;
+	border-bottom: 3px solid black;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.khungtin .tren a.tieude{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 3px;
+	font-family: Ba;
+	position: relative;
+	top:14px;
+	left: 20px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 5px;
+	background-color: white;
+}
+.duoi{
+	width: 667px;
+	height: 476px;
+	display: block;
+	margin-top: 15px;
+	
+}
+.duoi .trai{
+	width: 280px;
+	height: 476px;
+	float: left;
+	margin-right: 10px;
+}
+.duoi .trai img.tinlon{
+	width: 100%;
+}
+.duoi .trai .icon{
+	width: 286px;
+	height: 100px;
+	position: relative;
+	top: -50px;
+}
+.duoi .trai .icon a.tinlon{
+	display: block;
+	width: 230px;
+	height: 100px;
+	background-color: rgba(65, 65, 65, 0.43);
+	color: red;
+	font-family: Sansita;
+	font-size: 20px;
+	text-decoration: none;
+	position: relative;
+	top: -120px;
+	left: 50px;
+}
+.duoi .trai .icon b{
+	background-color: red;
+	margin-top: 5px;
+	position: relative;
+	top: -60px;
+	font-size: 40px;
+}
+.phai .tinnho{
+	width: 110px;
+	height: 205px;
+	float: left;
+	margin-right: 7px;
+	
+}
+.phai .tinnho img.ttnho{
+	width: 106px;
+	height: 140px;
+	
+}
+.phai .tinnho a.ttnho{
+	text-decoration: none;
+	font-size: 10px;
+	font-family: tahoma;
+	color: #414141;
+	display: block;
+	padding-top: 2px;
+	font-weight: bold;
+	text-align: justify;
+}
+.phai .tinnho a.ttnho:hover{
+	color: orange;
+	transition: 0.3s;
+	background-color: rgba(33, 150, 243, 0.89);
+}
+
+
+

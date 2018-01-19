@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.khungtin{
+	width: 704px;
+	height: 421px;
+	margin:auto;
+}
+.khungtin .tren{
+	width: 704px;
+	height: 49px;
+	padding-top: 5px;
+	margin: auto;
+	border-top: 1px solid gray;
+	text-align: center;
+	position: relative;
+	
+}
+.khungtin .tren a.tieude{
+	text-decoration: none;
+	color: red;
+	font-family: tahoma;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(icon1.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	vertical-align: baseline;
+}
+.khungtin .tren a.bosung:hover{
+	color: green;
+	transition:0.2s;
+}
+.khungtin .tren a.bosung{
+	text-decoration: none;
+	color: #414141;
+	font-size: 11px;
+	font-style: italic;
+	font-family: tahoma;
+	font-weight: 4px;
+	right: 0px;
+	display: block;
+	margin-top: -19px;
+	position: absolute;
+}
+.khungtin .giua{
+	width: 740px;
+	height: 76px;
+	text-align: center;
+}
+.khungtin .giua ._1iconnho{
+	width: 40px;
+	height: 60px;
+	display: inline-block;
+}
+.khungtin .giua ._1iconnho .linkicon{
+	width: 29px;
+	height: 42px;
+	background-image: url(bigicon.png);
+	background-position: 60px -426px;
+	display: inline-block;
+}
+.khungtin .giua ._1iconnho a.tieudeicon{
+	text-decoration: none;
+	font-size: 5px;
+	font-family: segoe ui;
+}
+.khungtin .giua ._1iconnho:hover .linkicon{
+	background-position: 60px -515px;
+}
+.khungtin .giua ._1iconnho:hover a.tieudeicon{
+	color:#67DCCD;
+}

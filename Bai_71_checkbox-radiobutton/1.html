@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body >
+     <div class="container">
+     	<div class="row">
+     		<h1>Dạng 1:cơ bản</h1>
+     		<div class="col-sm-6">
+     			<p>Sở thích của bạn là gì</p>
+     			<label for="ten">
+     				<input type="checkbox">Phim
+     			<label for="ten">
+     				<input type="checkbox">Âm nhạc
+     			</label>
+     			<label for="ten">
+     				<input type="checkbox">Thể thao
+     			</label>
+     		</div>
+     	</div>
+     	<div class="row">
+     		<h1>Dạng 2:làm màu cho khung chọn</h1>
+     		<div class="col-sm-6">
+     			<div class="danhsach">
+	     			<p>Bạn yêu thích môn nào?</p>
+	     			<label for="ten2" class="btn btn-outline-success">
+	     				<input type="checkbox">Toán
+	     			</label>
+	     			<label for="ten2" class="btn btn-outline-success">
+	     				<input type="checkbox">Ngữ văn
+	     			</label>
+	     			<label for="ten2" class="btn btn-outline-success">
+	     				<input type="checkbox">Vật lý
+	     			</label>
+	     			<label for="ten2"class="btn btn-outline-success">
+	     				<input type="checkbox">Hoá học
+	     			</label>
+	     			<label for="tèn" class="btn btn-outline-success">
+	     				<input type="checkbox">Lịch sử
+	     			</label>
+     			</div>
+     		</div>
+     	</div>
+     	<div class="row">
+     		<h1>Dang 3: không còn dấu tích</h1>
+     		<div class="col-sm-6">
+     			<div class="danhsach" data-toggle="buttons">
+     				<p>Bạn ngủ mỗi ngày bao nhiêu tiếng</p>
+     				<label for="" class="btn btn-outline-success">
+     					<input type="checkbox">7 tiếng
+     				</label>
+     				<label for="" class="btn btn-outline-success">
+     					<input type="checkbox">8 tiếng
+     				</label>
+     				<label for="" class="btn btn-outline-success">
+     					<input type="checkbox">9 tiếng
+     				</label>
+     			</div>
+     		</div>
+     	</div>
+          <div class="row">
+               <h1>Dang 4:radio</h1>
+               <div class="col-sm-6">
+                    <div class="danhmuc" data-toggle="buttons">
+                         <p>Bạn thích trình duyệt nào?</p>
+                         <label for="" class="btn btn-outline-success">
+                              <input type="radio">Google chrome
+                         </label>
+                         <label for="" class="btn btn-outline-success">
+                              <input type="radio" name="trinhduyet"> Coc coc
+                         </label>
+                         <label for="" class="btn btn-outline-success">
+                              <input type="radio" name="trinhduyet"> firefox
+                         </label>
+                         <label for=""class="btn btn-outline-success">
+                              <input type="radio" name="trinhduyet">Edge
+                         </label>
+                    </div>
+               </div>
+               <div class="col-sm-6">
+                    <div class="danhmucsp" data-toggle="buttons">
+                         <p>Bạn thích dòng điện thoại nào?</p>
+                         <label for="" class="btn btn-outline-success">
+                              <input type="radio">Iphone
+                         </label>
+                         <label for="" class="btn btn-outline-success">
+                              <input type="radio" name="dt"> Samsung
+                         </label>
+                         <label for="" class="btn btn-outline-success">
+                              <input type="radio" name="dt"> Xiaomi
+                         </label>
+                         <label for=""class="btn btn-outline-success">
+                              <input type="radio" name="dt">Huewei
+                         </label>
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{margin:0;padding: 0;}
+.tintucto{
+	width: 1160px;
+	height:660px;
+}
+.tinto{
+	width: 565px;
+	height: 422px;
+	display: block;
+	position: relative;
+	float: left;
+}
+.tinto .anh{
+	width: 565px;
+	height: 427px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+}
+.tinto .nen{
+	width: 565px;
+	height: 427px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.36),rgba(0, 0, 0, 0.41));
+}
+.tinto .tieude{
+	font-size: 25px;
+	font-weight: 10px;
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	z-index:3 ;
+	text-align: justify;
+}
+a.khungtin {
+	width: 280px;
+	height: 211px;
+	display: block;
+	background-image: url(pic1.png);
+	background-position: center;
+	position: relative;
+	color: purple;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+a.khungtin.phu {
+	margin-left:0px;
+}
+.khungtin	.nen
+{
+	width: 286px;
+	height: 211px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top:0;
+	left: 0;
+	background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.4) 50%,rgba(0, 0, 0, 0.26) 100%);
+	transition:2s;
+}
+.khungtin .tieude
+{
+	width: 286px;
+	position: absolute;
+	bottom: -100px;
+	left:0;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Ranga', cursive;
+	z-index:3;
+	padding-left:10px;
+}
+.khungtin:hover .nen{
+	opacity: 0;
+
+}
+.khungtin:hover .tieude{
+	bottom:20px;
+}

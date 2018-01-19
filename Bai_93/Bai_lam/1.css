@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0;}
+
+ol.carousel-indicators.cacnut {
+    width: 5px;
+    top: 0px;
+    left: 6px;
+    padding: 0px;
+    margin: 0px;
+} 

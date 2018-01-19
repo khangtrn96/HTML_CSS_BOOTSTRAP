@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+
+.navbar-dark .navbar-nav.khungmenu .nav-link {
+    padding: 17px 10px;
+}
+/*.khoiduoi{
+	margin-top: 10px;
+}*/ /*dùng mt-1 ở container thứ 2 nên không dung cái này*/

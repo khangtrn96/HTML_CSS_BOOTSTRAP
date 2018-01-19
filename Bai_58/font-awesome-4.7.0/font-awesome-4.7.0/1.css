@@ -1,0 +1,250 @@
+*{margin: 0;padding: 0;}
+.bo{
+	width: 100%;
+	height: 660px;
+	overflow: hidden;
+}
+.bo .khungnho{
+	width: 20%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+.bo .khungnho img.sp{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-image: cover;
+	tranform:scale(1);
+	transition:0.5s;
+}
+.bo .khungnho:hover img.sp{
+	transform:scale(2);
+}
+
+.bo .khungnho .layer2{
+	width: 100%;
+	height: 100%;
+	background: rgba(65, 65, 65, 0.45);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.layer3 {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin-left: -50%;
+	z-index: 3;
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+
+}
+.khungnho .layer3 .loigioithieu{
+	font-size: 20px;
+	font-family: segoe ui light;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.nut{
+	width: 80px;
+	height: 18px;
+	border-radius: 10px;
+	background: blue;
+	color: white;
+	top:-5%;
+	opacity: 0;
+	transition:1s;
+	/* padding: 5px; */
+	margin-left: 96px;
+}
+.khungnho:hover .nut{
+	top:70%;
+	opacity: 1;
+}
+.nut:hover{
+	background: white;
+	color: blue;
+	transition:0s;
+}
+.bo .khungnho .layer4 {
+	width: 200px;
+	position: absolute;
+	bottom: -20%;
+	left: 50%;
+	z-index: 4;
+	margin-left: -100px;
+	text-align: center;
+	font-size: 40px;
+	opacity: 0;
+	transition:1s;
+}
+.bo .khungnho:hover .layer4{
+	bottom: 5%;
+	opacity:1;
+} /*ket thuc div bo*/
+
+.so1{
+	width: 100%;
+	height: 660px;
+	background-image: url(pic27.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.so1 .noidung{
+	width: 300px;
+	margin: auto;
+	text-align: right;
+}
+.so1 .noidung .chuto{
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 250px;
+}
+.so1 .noidung .chunho{
+	font-size: 15px;
+}
+.so1 .noidung .nut{
+	display: inline-block;
+	margin-top: 5px;
+}
+.so1 .noidung .nut a.them{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 10px;
+}
+.so1 .noidung .nut:hover a.them{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+} /*het so1*/
+.so2{
+	width: 100%;
+	height: 660px;
+	background-image: url(pic28.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.so2 .noidung{
+	width: 300px;
+	margin: auto;
+	text-align: right;
+	padding-top: 250px;
+}
+.so2 .noidung .chuto{
+	font-size: 30px;
+	font-weight: bold;
+}
+.so2 .noidung .chunho{
+	font-size: 15px;
+}
+.so2 .noidung .nut {
+	display: inline-block;
+	margin-top: 5px;
+}
+.so2 .noidung .nut a.them{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 10px;
+}
+.so2 .noidung .nut:hover a.them{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+} /*het so2*/
+.so3{
+	width: 100%;
+	height: 660px;
+	background-image: url(pic29.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.so3 .noidung{
+	width: 300px;
+	margin: auto;
+	text-align: right;
+	padding-top: 250px;
+}
+.so3 .noidung .chuto{
+	font-size: 30px;
+	font-weight: bold;
+}
+.so3 .noidung .chunho{
+	font-size: 15px;
+}
+.so3 .noidung .nut{
+	display: inline-block;
+	margin-top: 5px;
+}
+.so3 .noidung .nut a.them{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 10px;
+}
+.so3 .noidung .nut:hover a.them{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.me{
+
+width: 100%;
+height: 500px;
+position: relative;
+overflow: hidden;
+}
+
+.me img.layer1{
+	position: absolute;
+	z-index:1;
+	top: 0px;
+	left: 0px;
+	animation: zoomlen 10s forwards;
+}
+/*@-webkit-keyframes tentukhoa giuÌp tao tu khoaÌ*/
+@-webkit-keyframes zoomlen{
+	from {transform:scale(1);}
+	to {transform:scale(2);}
+}
+/*.bo:hover img.layer1{
+	transform:scale(2);
+}*/
+.me .layer2 {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	text-align: center;
+	margin-left:-300px;
+	color: white; 
+	opacity: 0;
+	animation: divao 1s forwards;
+	animation-delay:1s;
+	}
+@-webkit-keyframes divao{
+	from{top:30%;opacity: 0;}
+	to{top: 50%;opacity: 1;}
+}
+.me .layer2 .chuto{
+	font-size: 25px;
+	font-weight: bold;
+}

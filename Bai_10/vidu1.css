@@ -1,0 +1,22 @@
+/*Ctrl+? de cmt
+*/
+h1{
+	font-style: italic;
+}
+h2{
+	font-family: 'segoe ui light';
+}
+h1.xanh{
+	color: lightblue;
+}
+h2.xanh{
+	color:red;
+}
+p{
+	font-family: 'segoe ui light';
+	text-align:center;
+	font-size: 20px;
+}
+p#to{
+	background-color: yellow;
+	}

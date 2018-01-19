@@ -1,0 +1,14 @@
+@font-face{
+	src:url(ALGER.TTF);
+	font-family: alger;
+}
+@font-face{
+	src:url(ARDELANEY.ttf);
+	font-family: bb;
+}
+h1{
+	font-family: alger;
+}
+h2{
+	font-family: bb;
+}

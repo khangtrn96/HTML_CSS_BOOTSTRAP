@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+
+.footer {
+    margin-top: 23px;
+    padding-bottom: 24px;
+    color: #7f7f7f;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.bg-light.p-a.khoinoidung {
+    background: #ececec;
+    padding-bottom: 23px;
+    padding-top: 19px;
+}
+
+.ndcardlayout {
+    background: #f8f8f8;
+    padding-top: 32px;
+} 
+.mautrang {background:white;}
